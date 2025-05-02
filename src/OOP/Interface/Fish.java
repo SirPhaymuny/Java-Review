@@ -7,5 +7,4 @@ public void hunt(){
 public void flee(){
     System.out.println("This fish flee");
 }
-
 }

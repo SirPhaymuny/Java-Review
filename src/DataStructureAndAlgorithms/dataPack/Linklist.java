@@ -11,7 +11,6 @@ public class Linklist {
         //             Nodes are in non-consecutive memory locations
         //             Elements are linked using pointers
 
-
         //advantage of linkedlist :
         // 1. Dynamic data structure (allocate needed memory while running).
         // 2. Insertion and Deletion of Node is easy .0(1)
@@ -20,7 +19,7 @@ public class Linklist {
         // disadvantage :
         // Greater memory usage (additional pointer)
         // No random access of element (no index[i])
-        // Accessing/searching elements is more time consuming. 0(n)
+        // Accessing/searching elements is more time-consuming. 0(n)
 
         //uses ?
         // implement Stacks/Queues
@@ -43,10 +42,10 @@ public class Linklist {
         linkedList.offer("C");
         linkedList.offer("D");
         linkedList.offer("F");
-        //linkedList.poll();
         linkedList.add(4,"E");
+        //linkedList.poll();
 
-        //linkedlist is easy to insert and delete than arraylist.
+        //linkedList is easy to insert and delete than arraylist.
         System.out.println(linkedList.indexOf("F"));
         System.out.println(linkedList.peekFirst());
         System.out.println(linkedList.peekLast());

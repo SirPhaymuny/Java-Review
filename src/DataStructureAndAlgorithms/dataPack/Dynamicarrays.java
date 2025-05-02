@@ -1,9 +1,21 @@
 package DataStructureAndAlgorithms.dataPack;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Dynamicarrays {
+    //Dynamic array is array that can grow or shrink its size on run time unlike the static array
+    //static-array is array that set fixed value of its size.
+
+    /** Key Features of ArrayList (Dynamic Array):
+    Grows automatically as elements are added.
+
+    Allows random access using an index (list.get(index)).
+
+    Can store duplicate elements.
+
+    Maintains insertion order.*/
+
+
     int size;
     int capacity = 10;
     Object[] array;
@@ -63,7 +75,7 @@ public class Dynamicarrays {
         for (int i = 0; i<size; i++){
             string+=array[i] + ",";
         }
-        if(string != ""){
+        if(string!=""){
             string = "[" + string.substring(0, string.length() -1) + "]";
         }else {
             string = "[]";

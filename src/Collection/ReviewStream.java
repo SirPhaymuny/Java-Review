@@ -9,7 +9,7 @@ public class ReviewStream {
     // stream can be create by collections, arrays, or I/O
     public static void main(String[] args) {
 
-        /* Intermidate operations: */
+        /* Intermediate operations: */
 
         // filtering using stream:
         List<String> names = Arrays.asList("Alice", "Charlie", "David", "Bob");
@@ -30,7 +30,7 @@ public class ReviewStream {
         // foreach loop
         names.stream().forEach(System.out::println);
 
-        // Collect
+        // collect
         List<String> filterNames = names.stream().filter(name -> name.startsWith("C")).collect(Collectors.toList());
         System.out.println(filterNames);
 

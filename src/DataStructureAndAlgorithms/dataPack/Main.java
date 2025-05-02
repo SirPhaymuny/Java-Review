@@ -35,6 +35,5 @@ public class Main {
         // 2. moving back/forward through browser history.
         // 3. backtracking algorithms (maze, file directories)
         // 4. calling function (call stack)
-
     }
 }

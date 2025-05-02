@@ -1,9 +1,6 @@
 package DataStructureAndAlgorithms.dataPack;
 
-import java.util.Collection;
-import java.util.Collections;
 import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class Priorityqueue {
@@ -11,11 +8,9 @@ public class Priorityqueue {
     // Priority Queue = A FIFO data Structure that serves elements
     // with the highest priorities first
     // before elements with lower priority
-
     // it like queue but we sort the element first it will display from small to big
     public static void main(String[] args) {
-
-        /*Queue<String> queue = new PriorityQueue<String>(Collections.reverseOrder());
+        /* Queue<String> queue = new PriorityQueue<String>(Collections.reverseOrder());
         queue.offer("B");
         queue.offer("A");
         queue.offer("D");
@@ -29,7 +24,6 @@ public class Priorityqueue {
 
         /*while (!queue.isEmpty()) {
             // System.out.println(queue.poll());
-
         }*/
 
         Queue<String> queue = new LinkedList<>();

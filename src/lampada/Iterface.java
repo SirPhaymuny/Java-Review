@@ -27,7 +27,7 @@ public class Iterface {
             }            
         }; 
         clA.show();
-        // this how to create lambda expression & it can replace the anymous class above it make your code
+        // this how to create lambda expression & it can replace the anonymous class above it make your code
         //shorter. 
         InnerIterface clB = () -> System.out.println("Some Text in lambda");
         clB.show();

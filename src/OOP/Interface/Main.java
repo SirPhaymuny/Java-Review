@@ -9,6 +9,5 @@ public class Main {
         Fish fish = new Fish();
         fish.flee();
         fish.hunt();
-
     }
 }

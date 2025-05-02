@@ -5,13 +5,14 @@ import java.util.Queue;
 
 public class Qeue {
     public static void main(String[] args) {
+        //*****************************************
         //Queue = Fifo data structure. First in First out
         //        A collection designed for holding elements prior to processing linear data structure.
         //
 
         //enqueue = add an object from the tail.
         //dequeue = remove an object from the head.
-        //add = enqueue, offer()
+        //add     = enqueue, offer()
         //remove = dequeue, poll()
         //*****************************************
 

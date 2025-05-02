@@ -12,6 +12,5 @@ public class Main {
         Bike bike = new Bike();
         Boat boat = new Boat();
         Vichicles[] racer = {car,bike,boat};
-
     }
 }

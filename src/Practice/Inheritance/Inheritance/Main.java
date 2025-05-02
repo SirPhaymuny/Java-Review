@@ -7,6 +7,5 @@ public class Main {
         Animal animal = new Animal();
         animal.makeSound();
         Cat cat = new Cat();
-
     }
 }
