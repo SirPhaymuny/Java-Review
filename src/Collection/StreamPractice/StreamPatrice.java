@@ -83,8 +83,5 @@ public class StreamPatrice {
         Optional<Integer> number = numbers.stream().distinct().sorted(Comparator.reverseOrder())
                 .skip(1).findFirst();
         System.out.println("second largest number"+number);
-
-
-
     }
 }

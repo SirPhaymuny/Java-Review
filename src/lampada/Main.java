@@ -3,6 +3,17 @@ package lampada;
 /*funtional interface*/
 /*is interface that only one abstract method*/
 /*lampda will only work with functional interface*/
+
+
+/**Syntax
+ * - 1 . (parameters) -> expression
+ * - 2 . Or for multi-line logic:
+  (parameters) -> {
+      // multiple lines
+      return value;
+  }
+**/
+
 @FunctionalInterface
 interface IFeacture{
     //void login();
